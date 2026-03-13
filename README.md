@@ -32,7 +32,7 @@ npm install
 npm start
 ```
 
-TypeScript のビルド（`tsc`）が実行され、`dist/app.js` が生成された後、ポート 8080 でローカルサーバーが起動します。
+esbuild によるバンドルが実行され、`dist/app.js` が生成された後、ポート 8080 でローカルサーバーが起動します。
 
 ブラウザで以下にアクセスしてください：
 
@@ -47,6 +47,14 @@ http://localhost:8080
 ```bash
 npm run build
 ```
+
+## テスト
+
+```bash
+npm test
+```
+
+Jest によるユニットテストが実行されます。Babylon.js はモック化されており、WebGL 環境なしで動作します。
 
 ## ファイル構成
 
