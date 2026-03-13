@@ -11,23 +11,42 @@
 
 ## インストール
 
-このプロジェクトを始めるには、リポジトリをクローンしてブラウザで`index.html`ファイルを開きます。
-
 ### 必要条件
 
-- 最新のウェブブラウザ（Chrome、Firefox、Safari、Edgeなど）
-- Git（リポジトリをクローンする場合）
+- [Node.js](https://nodejs.org/)（npm 同梱）
+- 最新のウェブブラウザ（Chrome、Firefox、Safari、Edge など）
 
-### リポジトリのクローン
+### セットアップ
 
 ```bash
 git clone https://github.com/yourusername/babylonjs-sample-app.git
 cd babylonjs-sample-app
+npm install
 ```
 
 ## 使い方
 
-`index.html`ファイルをウェブブラウザで開いてください。シンプルな3Dシーンが表示され、球体と地面がレンダリングされます。マウス操作でカメラを制御できます。
+### 開発サーバーの起動
+
+```bash
+npm start
+```
+
+TypeScript のビルド（`tsc`）が実行され、`dist/app.js` が生成された後、ポート 8080 でローカルサーバーが起動します。
+
+ブラウザで以下にアクセスしてください：
+
+```
+http://localhost:8080
+```
+
+シンプルな3Dシーンが表示されます。マウスでカメラを操作できます。
+
+### TypeScript のみビルドする場合
+
+```bash
+npm run build
+```
 
 ## ファイル構成
 
