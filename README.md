@@ -149,4 +149,3 @@ window.addEventListener('DOMContentLoaded', function() {
 ## 謝辞
 
 - [Babylon.js](https://www.babylonjs.com/) - 本プロジェクトで使用している強力な3Dエンジン
-- [GitHub](https://github.com/) - リポジトリのホスティングを提供
