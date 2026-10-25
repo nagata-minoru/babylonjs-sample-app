@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "es6",
     "module": "es6",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
+    "types": ["jest"],
     "strict": true,
     "esModuleInterop": true,
     "outDir": "./dist",
