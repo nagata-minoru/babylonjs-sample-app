@@ -15,17 +15,17 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "@babylonjs/core": "^7.13.1",
-    "babylonjs": "^7.13.1"
+    "@babylonjs/core": "^9.30.0",
+    "babylonjs": "^9.30.0"
   },
   "devDependencies": {
-    "@types/babylonjs": "^2.4.1",
+    "@types/babylonjs": "^2.4.5",
     "@types/jest": "^30.0.0",
-    "esbuild": "^0.28.1",
+    "esbuild": "^0.28.2",
     "http-server": "^14.1.1",
-    "jest": "^30.3.0",
-    "jest-environment-jsdom": "^30.3.0",
-    "ts-jest": "^29.4.6",
-    "typescript": "^5.5.3"
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
+    "ts-jest": "^29.4.14",
+    "typescript": "^7.0.2"
   }
 }
